@@ -32,5 +32,5 @@
         android:textColor="@color/concrete"
         android:textSize="@dimen/text_size_micro"
         android:text="2017"/>
-    
+
 </LinearLayout>
