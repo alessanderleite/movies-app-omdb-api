@@ -28,7 +28,13 @@
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/text_size_medium"/>
 
-
+            <br.com.alessanderleite.moviesappomdbapi.feature.common.components.CustomSearch
+                android:id="@+id/cs_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_padding_size_medium_large"
+                android:layout_marginStart="@dimen/margin_padding_size_medium_large"
+                android:gravity="center"/>
 
         </LinearLayout>
     </RelativeLayout>
