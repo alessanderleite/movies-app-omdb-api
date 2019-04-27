@@ -11,15 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".feature.details.DetailsActivity"></activity>
-        <activity android:name=".core.base.BaseActivity" />
-        <activity android:name=".feature.search.SearchActivity">
+        <activity
+            android:name=".feature.search.SearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".feature.details.DetailsActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
