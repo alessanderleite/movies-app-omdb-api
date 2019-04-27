@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ll_card_container"
     android:layout_width="@dimen/card_width"
     android:layout_height="@dimen/card_height"
@@ -12,7 +12,7 @@
         android:id="@+id/iv_thumbnail"
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:background="@color/shiraz"/>
+        android:background="@color/shiraz" />
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/tv_movie_title"
@@ -22,7 +22,7 @@
         android:maxLines="2"
         android:textColor="@color/concrete"
         android:textSize="@dimen/text_size_medium"
-        android:text="Matrix"/>
+        tools:text="Matrix" />
 
     <android.support.v7.widget.AppCompatTextView
         android:id="@+id/tv_year"
@@ -31,6 +31,6 @@
         android:maxLines="1"
         android:textColor="@color/concrete"
         android:textSize="@dimen/text_size_micro"
-        android:text="2017"/>
+        tools:text="2017" />
 
 </LinearLayout>
