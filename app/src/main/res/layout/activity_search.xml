@@ -39,4 +39,23 @@
         </LinearLayout>
     </RelativeLayout>
 
+    <br.com.alessanderleite.moviesappomdbapi.core.base.BaseRecyclerView
+        android:id="@+id/rv_card_movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_padding_size_small"
+        android:layout_marginRight="@dimen/margin_padding_size_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        android:visibility="gone"/>
+
+    <include android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/view_loading_state"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"/>
+
 </android.support.constraint.ConstraintLayout>
